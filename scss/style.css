@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    color: #8D8D8D;
+}
