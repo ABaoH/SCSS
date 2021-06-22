@@ -7,6 +7,10 @@
     margin: 0 auto;
 }
 
+.container{
+    width: 1110px;
+}
+
 nav{
     width: 1110px;
     height: 56px;
@@ -20,15 +24,11 @@ a{
     list-style: none;
 }
 
-div{
-    padding: 0px !important;
+ul{
+    list-style: none;
 }
 
 header{
-    .content{
-        width: 1110px;
-    }
-
     .banner{
         background-image: url(../images/index1.jpg) ;
         width: auto;
@@ -48,7 +48,7 @@ header{
         width: 445px;
     }
 
-    button{
+    .btn{
         width: 350px;
         font-size: 28px;
     }
@@ -62,6 +62,7 @@ header{
     ul{
         padding-left: 0px;
         margin-bottom: 0px;
+
     }
     a{
         color: $white;
@@ -69,18 +70,11 @@ header{
 
     .myheader{
         background-color: $primary;
-        height: 52px;
-    }
-
-    .link{
-        width: 1110px;
-        padding-top: 12px !important;
     }
 }
 
 .product{
-    width: 1110px;
-    padding: 60px 0px !important;
+    padding: 60px 0px;
     font-family: $font-family-Sans-Pro;
     h2{
         font-size: $font-size-lg;
@@ -98,7 +92,7 @@ header{
         width: 100%;
     }
     .text{
-        padding: 0px 80px !important;
+        padding: 0px 80px;
     }
     button{
         width: 350px;
@@ -111,7 +105,7 @@ header{
         color: $gray-dark;
     }
     .col{
-        padding-bottom: 58px !important;
+        padding-bottom: 58px;
     }
     h3{
         font-size: $font-size-md;
@@ -120,21 +114,18 @@ header{
 }
 
 .nextpage{
-    padding-bottom: 60px !important;
+    padding-bottom: 60px;
     a{
         color: $text-color;
-        font-size: $font-size-sm !important;
+        font-size: $font-size-sm;
     }
 }
 
 .item{
     background: $gray-light;
     font-family: $font-family-Sans-Pro;
-    .row{
-        width: 1110px;
-    }
     .cardgroup{
-        padding: 40px 0px !important;
+        padding: 40px 0px;
     }
     .card{
         background-color: $gray-light;
@@ -150,7 +141,6 @@ header{
 }
 
 .product2{
-    width: 1110px;
     font-family: $font-family-Sans-Pro;
     h2{
         font-size: $font-size-lg;
@@ -178,9 +168,6 @@ header{
     background-image: url(../images/index10.jpg);
     width: 100%;
     height: 600px;
-    .content{
-        width: 1110px;
-    }
     .subtext{
         width: 350px;
     }
@@ -202,15 +189,9 @@ header{
 footer{
     background-color: $primary !important;
     color: $white;
-    .myfooter{
-        width: 1110px;
-        height: 80px;
-    }
-
     p{
         font-size: $font-size-xs;
-        display: inline-block;
-        padding: 0px 10px;
+        margin-bottom: 0px;
     }
     a{
         color: $white !important;
@@ -218,7 +199,9 @@ footer{
     li{
         display: inline-block;
         text-decoration: none;
-        padding: 0px 10px;
         font-size: $font-size-sm;
+    }
+    ul{
+        margin-bottom: 0px;
     }
 }
